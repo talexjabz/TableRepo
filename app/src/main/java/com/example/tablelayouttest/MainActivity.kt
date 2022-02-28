@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         addButton.setOnClickListener {
+
             val tableRow = TableRow(applicationContext)
             val layoutParams = TableRow.LayoutParams(TableRow.LayoutParams.WRAP_CONTENT)
             layoutParams.setMargins(5, 5, 5,5)
