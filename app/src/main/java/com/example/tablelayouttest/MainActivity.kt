@@ -22,6 +22,7 @@ class MainActivity : AppCompatActivity() {
             tableRow.layoutParams = layoutParams
             tableRow.background = ResourcesCompat.getDrawable(resources, android.R.color.holo_red_dark, null)
 
+
             val androidName = androidVersionEditText.text.toString()
             val androidNameTextView = TextView(this)
             androidNameTextView.text = androidName
